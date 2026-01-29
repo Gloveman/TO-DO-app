@@ -46,7 +46,7 @@ def toggle_done(idx):
 if 'todos' not in st.session_state:
     st.session_state.todos = []
 
-st.title('TO-DO List')
+st.title('✅TO-DO List')
 
 # key 속성을 설정하면 사용자가 입력한 값이 key라는 이름으로 session state에 저장된다.
 # 이후 다시 렌더링 되었을때는 new_task의 값이 들어있다.
